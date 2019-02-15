@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../11/.idea/11.iml" filepath="$PROJECT_DIR$/../11/.idea/11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/django1.iml" filepath="$PROJECT_DIR$/.idea/django1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paas/.idea/paas.iml" filepath="$PROJECT_DIR$/../paas/.idea/paas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xtwhs/.idea/xtwhs.iml" filepath="$PROJECT_DIR$/../xtwhs/.idea/xtwhs.iml" />
+    </modules>
+  </component>
+</project>
