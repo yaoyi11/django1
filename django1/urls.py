@@ -19,3 +19,11 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+from django.conf.urls import url
+
+from login import views
+
+urlpatterns = [
+    url(r'^$', views.index),
+]
