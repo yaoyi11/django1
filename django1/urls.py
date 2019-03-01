@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from login.views import movie_list, movie_detail
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
@@ -25,5 +27,7 @@ from django.conf.urls import url
 from login import views
 
 urlpatterns = [
-    url(r'^$', views.index),
+    #url(r'^$', views.index),
+    path('movielist/',movie_list),
+    path('movies/<int:pk>/',movie_detail),
 ]

@@ -20,6 +20,7 @@
     <orderEntry type="module" module-name="paas" />
     <orderEntry type="module" module-name="xtwhs" />
     <orderEntry type="module" module-name="normal" />
+    <orderEntry type="module" module-name="moviesapi" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
